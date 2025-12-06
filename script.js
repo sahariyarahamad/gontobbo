@@ -26,12 +26,15 @@ const params = new URLSearchParams(window.location.search);
 
 if (isTesterShow){
 
-    if (params.has('t')){
-        document.getElementById('section-tester').style.display = "block";
-        
-    }else{
-        document.getElementById('section-tester').style.display = "none";
-    }
+    window.addEventListener('DOMContentLoaded', () => {
+
+        if (params.has('t')){
+            document.getElementById('section-tester').style.display = "block";
+            
+        }else{
+            document.getElementById('section-tester').style.display = "none";
+        }
+    });
 }else{
     document.getElementById('section-tester').style.display = "none";
 }
