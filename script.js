@@ -17,9 +17,9 @@ document.getElementById("app-download-bottom").href = latestVersionURL;
 
 
 // for tester version and desc
-document.getElementById("tv-tester-version").textContent = "Tester version: 1.2 - Beta";
-document.getElementById("tv-tester-description").textContent = "Description: Some bug fixed";
-document.getElementById("tester-app-download").href = "https://www.google.com";
+document.getElementById("tv-tester-version").textContent = "Tester version: 1.0 - Tester";
+document.getElementById("tv-tester-description").textContent = "Description: 1.Some bug fixed, 2. Added change bus route option";
+document.getElementById("tester-app-download").href = "https://github.com/sahariyarahamad/sahariyarhost/raw/refs/heads/main/gontobbo-app/gontobbo_test.apk";
 
 const isTesterShow = true;
 
