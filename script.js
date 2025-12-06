@@ -22,17 +22,17 @@ document.getElementById("tv-tester-description").textContent = "Description: Som
 document.getElementById("tester-app-download").href = "https://www.google.com";
 
 const isTesterShow = true;
-const params = new URLSearchParams(window.location.search);
+
 
 if (isTesterShow){
 
     window.addEventListener('DOMContentLoaded', () => {
-
+        const params = new URLSearchParams(window.location.search);
+        const sectionTester = document.getElementById('section-tester');
         if (params.has('t')){
-            document.getElementById('section-tester').style.display = "block";
-            
+            sectionTester.style.display = "block";
         }else{
-            document.getElementById('section-tester').style.display = "none";
+            sectionTester.style.display = "none";
         }
     });
 }else{
