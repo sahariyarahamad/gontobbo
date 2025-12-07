@@ -1,4 +1,10 @@
 
+// var names
+const testerVersionName = "1.0 - Tester",
+testerVersionDescription = "<ol> <li>Some bug fixed</li> <li>Added change bus route option</li> </ol>",
+testerVersionDownloadLink = "https://github.com/sahariyarahamad/sahariyarhost/raw/refs/heads/main/gontobbo-app/gontobbo_test.apk";
+
+
 document.getElementById("icon-linkedin").src = "https://www.google.com/s2/favicons?sz=64&domain=linkedin.com";
 document.getElementById("icon-facebook").src = "https://www.google.com/s2/favicons?sz=64&domain=facebook.com";
 document.getElementById("icon-github").src = "https://www.google.com/s2/favicons?sz=64&domain=github.com";
@@ -17,9 +23,9 @@ document.getElementById("app-download-bottom").href = latestVersionURL;
 
 
 // for tester version and desc
-document.getElementById("tv-tester-version").textContent = "Tester version: 1.0 - Tester";
-document.getElementById("tv-tester-description").textContent = "Description: 1.Some bug fixed, 2. Added change bus route option";
-document.getElementById("tester-app-download").href = "https://github.com/sahariyarahamad/sahariyarhost/raw/refs/heads/main/gontobbo-app/gontobbo_test.apk";
+document.getElementById("tv-tester-version").innerHTML = "<strong>Version name:</strong><br>" + testerVersionName;
+document.getElementById("tv-tester-description").innerHTML = "<strong>Description:</strong><br>" + testerVersionDescription;
+document.getElementById("tester-app-download").href = testerVersionDownloadLink;
 
 const isTesterShow = true;
 

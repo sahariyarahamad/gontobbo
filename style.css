@@ -195,6 +195,11 @@ body{
   display: none;
 }
 
+#tv-app-download-tester{
+  width: max-content;
+  text-align: center;
+  margin: auto;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
