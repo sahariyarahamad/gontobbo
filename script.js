@@ -1,7 +1,7 @@
 
 // var names
 const testerVersionName = "1.0 - Tester",
-testerVersionDescription = "<ol> <li>Some bug fixed</li> <li>Added change bus route option</li> </ol>",
+testerVersionDescription = "<ol> <li>Some bug fixed</li> <li>Permission request handle</li>",
 testerVersionDownloadLink = "https://github.com/sahariyarahamad/sahariyarhost/raw/refs/heads/main/gontobbo-app/gontobbo_test.apk";
 
 
